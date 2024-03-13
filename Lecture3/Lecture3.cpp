@@ -1,28 +1,6 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
-
-//int main() {
-//    int array[] = { 23,16,87,1,2,98,80,70 };
-//    int size = sizeof(array) / sizeof(array[0]); 
-//
-//    for (int i = 0; i < size; i++) {
-//        for (int j = i + 1; j < size; j++) {
-//            if (array[i] > array[j]) { 
-//                int temp = array[i];
-//                array[i] = array[j];
-//                array[j] = temp;
-//            }
-//        }
-//    }
-//
-//    for (int k = 0; k < size; k++) {
-//        cout << array[k] << endl;
-//    }
-//
-//    return 0;
-//}
 
 string addBinary(string a, string b) {
 	// Assume a = 101, b = 110 ; Sum = 1011  | 211
